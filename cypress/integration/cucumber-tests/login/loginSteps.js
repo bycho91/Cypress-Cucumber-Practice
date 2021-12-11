@@ -21,3 +21,7 @@ Then('I should see the home page', () => {
 	cy.url().should('include', 'account-summary.html');
 	cy.get('#account_summary_tab').should('be.visible');
 });
+
+Then('I should see an error message', () => {
+	LoginPage.checkForErrorMessage();
+});
