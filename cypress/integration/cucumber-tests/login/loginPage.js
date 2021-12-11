@@ -11,10 +11,10 @@ class LoginPage {
 		cy.get(SIGNIN_BTN).click();
 	}
 	static fillUsername(name) {
-		cy.get(USERNAME_INPUT).type(name);
+		cy.get(USERNAME_INPUT).type(name, { delay: 100 });
 	}
 	static fillPassword(password) {
-		cy.get(PASSWORD_INPUT).type(password);
+		cy.get(PASSWORD_INPUT).type(password, { delay: 100 });
 	}
 	static submitForm() {
 		cy.get(SUBMIT_BTN).click();
