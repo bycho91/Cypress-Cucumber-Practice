@@ -1,6 +1,10 @@
-# Cypress-Cucumber-Practice
+# Cypress-Cucumber-Practice BDD Concepts
 
-Practicing using Cucumber and Gherkin with Cypress to test zero.webappsecurity.com
+-   Practicing using Cucumber and Gherkin with Cypress to test zero.webappsecurity.com
+-   Tested two scenarios in login page:
+
+1. Verifying error message when Login credentials are invalid
+2. Verifying that home page is seen when login credentials are valid
 
 ## Trying some light practice using BDD with Cypress
 
