@@ -12,6 +12,8 @@ Feature: Login to Application
       And I click on submit login
       Then I should see an error message
 
+
+    @focus
     Scenario: Valid Login
       Given I open login page
       When I fill username with "username"

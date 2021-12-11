@@ -32,3 +32,8 @@
                 - When
                 - And
                 - Then
+
+### Important notes
+
+-   use '@focus' in cucumber file (login.feature) above a certain scenario to run only that scenario in test
+    -   this is a good feature to use when debugging
